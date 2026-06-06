@@ -40,3 +40,23 @@ Fields: {
   "category_id": "5"
 }
 Result: Success! Inserted ID: 2
+
+
+--- [2026-06-06T15:30:33.999Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780759805,
+  "exp": 1780846205
+}
+Fields: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan",
+  "tanggal_kejadian": "2026-06-06",
+  "lokasi_kejadian": "coba buat laporan",
+  "category_id": "5"
+}
+Result: Success! Inserted ID: 3

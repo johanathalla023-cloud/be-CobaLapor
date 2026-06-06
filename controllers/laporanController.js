@@ -15,12 +15,11 @@ export const createLaporan = async (req, user, files) => {
     let description = req.body.description;
     let tanggal_kejadian = req.body.tanggal_kejadian;
     let lokasi_kejadian = req.body.lokasi_kejadian;
-    let instansi_tujuan = req.body.instansi_tujuan;
     let category_id = req.body.category_id;
     
     fs.appendFileSync(logFile, `\n\n--- [${new Date().toISOString()}] createLaporan Executing ---\n`);
     fs.appendFileSync(logFile, `User: ${JSON.stringify(user, null, 2)}\n`);
-    fs.appendFileSync(logFile, `Fields: ${JSON.stringify({title, description, tanggal_kejadian, lokasi_kejadian, instansi_tujuan, category_id}, null, 2)}\n`);
+    fs.appendFileSync(logFile, `Fields: ${JSON.stringify({title, description, tanggal_kejadian, lokasi_kejadian, category_id}, null, 2)}\n`);
     
     if (!title || !description) {
       if (files && files.length > 0) {
@@ -44,9 +43,9 @@ export const createLaporan = async (req, user, files) => {
     const primaryImage = imagePaths[0] || null;
 
     const [result] = await db.query(
-      `INSERT INTO laporan (user_id, title, description, tanggal_kejadian, lokasi_kejadian, instansi_tujuan, category_id, status, image) 
-       VALUES (?, ?, ?, ?, ?, ?, ?, 'pending', ?)`,
-      [user.id, title, description, tanggal_kejadian || null, lokasi_kejadian || null, instansi_tujuan || null, category_id || null, primaryImage]
+      `INSERT INTO laporan (user_id, title, description, tanggal_kejadian, lokasi_kejadian, category_id, status, image) 
+       VALUES (?, ?, ?, ?, ?, ?, 'pending', ?)`,
+      [user.id, title, description, tanggal_kejadian || null, lokasi_kejadian || null, category_id || null, primaryImage]
     );
 
     const successRes = { 
@@ -126,7 +125,6 @@ export const updateLaporan = async (id, user, reqBody, files) => {
     
     const finalImages = [...imagesToKeep, ...newImagePaths];
     const primaryImage = finalImages[0] || null;
-    const imagesJson = finalImages.length > 0 ? JSON.stringify(finalImages) : null;
     
     let updateFields = [];
     let updateValues = [];
@@ -139,10 +137,6 @@ export const updateLaporan = async (id, user, reqBody, files) => {
       updateFields.push("description = ?");
       updateValues.push(description);
     }
-    if (reqBody.instansi_tujuan !== undefined) {
-      updateFields.push("instansi_tujuan = ?");
-      updateValues.push(reqBody.instansi_tujuan || null);
-    }
     if (category_id) {
       updateFields.push("category_id = ?");
       updateValues.push(category_id);
@@ -150,8 +144,6 @@ export const updateLaporan = async (id, user, reqBody, files) => {
     
     updateFields.push("image = ?");
     updateValues.push(primaryImage);
-    updateFields.push("images = ?");
-    updateValues.push(imagesJson);
     
     if (updateFields.length === 0) {
       if (files && files.length > 0) {
@@ -186,7 +178,7 @@ export const deleteLaporan = async (id, user) => {
     const laporanId = Number(id);
     const role = user.role;
 
-    let checkQuery = "SELECT image, images FROM laporan WHERE id = ?";
+    let checkQuery = "SELECT image FROM laporan WHERE id = ?";
     let checkParams = [laporanId];
     if (role !== 'admin' && role !== 'super_admin') {
       checkQuery += " AND user_id = ?";

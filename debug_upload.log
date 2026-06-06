@@ -60,3 +60,502 @@ Body received: {
   "instansi_tujuan": "undefined",
   "category_id": "5"
 }
+
+
+--- [2026-06-06T15:30:33.926Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "1230552",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryjlwBTnAJBiEynVyu",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: [
+  {
+    "fieldname": "files",
+    "originalname": "Gambar WhatsApp 2024-10-04 pukul 20.28.14_e49d322b.jpg",
+    "encoding": "7bit",
+    "mimetype": "image/jpeg",
+    "destination": "uploads/",
+    "filename": "1780759833953-119233871.jpg",
+    "path": "uploads\\1780759833953-119233871.jpg",
+    "size": 1229751
+  }
+]
+Body received: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan",
+  "tanggal_kejadian": "2026-06-06",
+  "lokasi_kejadian": "coba buat laporan",
+  "category_id": "5"
+}
+
+
+--- [2026-06-06T15:31:54.185Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "255613",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryy3zgImeibvERjLkU",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Multer Error: Unexpected field
+
+
+--- [2026-06-06T15:32:22.519Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "559",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryXd2FzOOklmpyjz41",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:32:23.541Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "559",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundary4TXzBA1UA96GfBgu",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:32:23.693Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "559",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundary8cBHWwJt18jkBH16",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:33:21.393Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "559",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundary7I0jfbEsFcAU4Cc3",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "1111111111111111111111111111111111111111111111111111111111111111111",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:36:05.349Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "542",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryfAyZ108jeBq5BByO",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "11111111111111111111111111111111111111111111111111",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:36:25.842Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "766",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundary2lnyaZwkAudfgGl8",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:36:27.832Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "766",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryzQBYAjARCOFJwUjg",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:39:06.724Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "527",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzYwMzM1LCJleHAiOjE3ODA4NDY3MzV9.V7F27Ljg1Zjob4lZx76N3w-Me0SsUF2MtYjEyM2ukkg",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryPBv1pWlMkGJPwiqi",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan1",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:39:17.492Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "527",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzYwMzM1LCJleHAiOjE3ODA4NDY3MzV9.V7F27Ljg1Zjob4lZx76N3w-Me0SsUF2MtYjEyM2ukkg",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryrRbNf50O9Gi6KxPq",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan1",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:40:08.064Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "527",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzYwMzM1LCJleHAiOjE3ODA4NDY3MzV9.V7F27Ljg1Zjob4lZx76N3w-Me0SsUF2MtYjEyM2ukkg",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryLypQNyjy0gGU14bb",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan1",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:40:47.994Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "489",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzYwMzM1LCJleHAiOjE3ODA4NDY3MzV9.V7F27Ljg1Zjob4lZx76N3w-Me0SsUF2MtYjEyM2ukkg",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarymDEBdUe2s4kBRpel",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "coba buat laporancoba buat laporan1",
+  "category_id": "5",
+  "existing_images": "[]"
+}
+
+
+--- [2026-06-06T15:43:07.421Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "766",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryVLXtTL0YJ6uZUhu0",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:43:15.348Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "766",
+  "sec-ch-ua-platform": "\"Android\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarygB3W64AyTSt6o6K9",
+  "sec-ch-ua-mobile": "?1",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:44:37.697Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "766",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryBxfMvvnXQRzQ0Iet",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[\"/uploads/1780759833953-119233871.jpg\"]"
+}
+
+
+--- [2026-06-06T15:44:47.656Z] Incoming Request ---
+Headers: {
+  "host": "localhost:3000",
+  "connection": "keep-alive",
+  "content-length": "728",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwNzU5ODA1LCJleHAiOjE3ODA4NDYyMDV9.Z8ObgLyAvNLzsvRgnYJt71Zlt5WLPrGFgsay2U0YEwE",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Chromium\";v=\"148\", \"Microsoft Edge\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryZujKEQlo8D5aiyTt",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:3001",
+  "sec-fetch-site": "same-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:3001/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba buat laporan",
+  "description": "page.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\npage.tsx:177 \r\n PUT http://localhost:3000/api/laporan/3 400 (Bad Request)\r\npage.tsx:184 AxiosError: Request failed with status code 400\r\n",
+  "category_id": "5",
+  "existing_images": "[]"
+}
