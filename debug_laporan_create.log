@@ -1,42 +1,42 @@
 
 
---- [2026-06-06T04:10:10.068Z] createLaporan Executing ---
+--- [2026-06-06T11:41:56.480Z] createLaporan Executing ---
 User: {
-  "id": 1,
-  "nik": "1111111111111111",
-  "nama_lengkap": "COBA AJA Test",
-  "email": "sultonlptp@gmail.com",
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
   "role": "user",
-  "iat": 1780718908,
-  "exp": 1780805308
+  "iat": 1780745366,
+  "exp": 1780831766
 }
 Fields: {
-  "title": "Testing laporan",
-  "description": "laporan testing",
+  "title": "tyuiopoiuyrtyuiopoiuytr",
+  "description": "tyuiopoiuyfguioiuytf",
   "tanggal_kejadian": "2026-06-06",
-  "lokasi_kejadian": "Testing",
+  "lokasi_kejadian": "fgyuiuygfguygfgyuyfgugffghu",
   "instansi_tujuan": "Dinas Kesehatan",
-  "category_id": "1"
+  "category_id": "5"
 }
-Result: Success! Inserted ID: 56
+Result: Success! Inserted ID: 1
 
 
---- [2026-06-06T04:10:49.256Z] createLaporan Executing ---
+--- [2026-06-06T12:41:43.944Z] createLaporan Executing ---
 User: {
-  "id": 1,
-  "nik": "1111111111111111",
-  "nama_lengkap": "COBA AJA Test",
-  "email": "sultonlptp@gmail.com",
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
   "role": "user",
-  "iat": 1780718908,
-  "exp": 1780805308
+  "iat": 1780745366,
+  "exp": 1780831766
 }
 Fields: {
-  "title": "testing laporan 2",
-  "description": "testing laporan 2",
-  "tanggal_kejadian": "2026-06-13",
-  "lokasi_kejadian": "testing laporan 2",
-  "instansi_tujuan": "Dinas Kesehatan",
-  "category_id": "4"
+  "title": "assasdadaafefefw4efdsrv4wefds",
+  "description": "assasdadaafefefw4efdsrv4wefds",
+  "tanggal_kejadian": "2026-06-06",
+  "lokasi_kejadian": "assasdadaafefefw4efdsrv4wefds",
+  "instansi_tujuan": "undefined",
+  "category_id": "5"
 }
-Result: Success! Inserted ID: 57
+Result: Success! Inserted ID: 2

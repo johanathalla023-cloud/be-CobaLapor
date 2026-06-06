@@ -42,12 +42,11 @@ export const createLaporan = async (req, user, files) => {
     }
 
     const primaryImage = imagePaths[0] || null;
-    const imagesJson = imagePaths.length > 0 ? JSON.stringify(imagePaths) : null;
 
     const [result] = await db.query(
-      `INSERT INTO laporan (user_id, title, description, tanggal_kejadian, lokasi_kejadian, instansi_tujuan, category_id, status, image, images) 
-       VALUES (?, ?, ?, ?, ?, ?, ?, 'pending', ?, ?)`,
-      [user.id, title, description, tanggal_kejadian || null, lokasi_kejadian || null, instansi_tujuan || null, category_id || null, primaryImage, imagesJson]
+      `INSERT INTO laporan (user_id, title, description, tanggal_kejadian, lokasi_kejadian, instansi_tujuan, category_id, status, image) 
+       VALUES (?, ?, ?, ?, ?, ?, ?, 'pending', ?)`,
+      [user.id, title, description, tanggal_kejadian || null, lokasi_kejadian || null, instansi_tujuan || null, category_id || null, primaryImage]
     );
 
     const successRes = { 
