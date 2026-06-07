@@ -117,3 +117,63 @@ Fields: {
   "lokasi_kejadian": "qqqqqqqqqqqqqqqqqqqqqqqqqqqq"
 }
 Result: Success! Inserted ID: 6
+
+
+--- [2026-06-07T11:59:10.761Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780832731,
+  "exp": 1780919131
+}
+Fields: {
+  "title": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "description": "wwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "tanggal_kejadian": "2026-06-07",
+  "lokasi_kejadian": "ppppppppppppppppppppppppppppppppp",
+  "category_id": "5"
+}
+Result: Success! Inserted ID: 7
+
+
+--- [2026-06-07T14:34:14.686Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780842814,
+  "exp": 1780929214
+}
+Fields: {
+  "title": "efhgrssh",
+  "description": "jfeklsgklgn",
+  "tanggal_kejadian": "2026-06-07",
+  "lokasi_kejadian": "dadadadadadadadadadadadadadadadadadadadadadadadadadada",
+  "category_id": "2"
+}
+Result: Success! Inserted ID: 8
+
+
+--- [2026-06-07T14:39:37.097Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780843102,
+  "exp": 1780929502
+}
+Fields: {
+  "title": "testing1",
+  "description": "testing1testing1testing1testing1testing1",
+  "tanggal_kejadian": "2026-06-07",
+  "lokasi_kejadian": "testing1testing1testing1",
+  "category_id": "2"
+}
+Result: Success! Inserted ID: 9
