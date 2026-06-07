@@ -60,3 +60,60 @@ Fields: {
   "category_id": "5"
 }
 Result: Success! Inserted ID: 3
+
+
+--- [2026-06-07T10:22:20.576Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780827650,
+  "exp": 1780914050
+}
+Fields: {
+  "title": "coba lapor aja",
+  "description": "coba lapor ajacoba lapor ajacoba lapor aja",
+  "tanggal_kejadian": "2008-09-10",
+  "lokasi_kejadian": "coba lapor ajacoba lapor ajacoba lapor aja"
+}
+Result: Success! Inserted ID: 4
+
+
+--- [2026-06-07T10:40:25.556Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780827650,
+  "exp": 1780914050
+}
+Fields: {
+  "title": "dsfniuaesfiuefhesiufhshfushfuishdfiuhdsiuhfuidshfiudshfudisfhdusifhdsuifhdsuifhdusihfuhfdfushfsuhdhfsif",
+  "description": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "tanggal_kejadian": "2009-01-10",
+  "lokasi_kejadian": "feafeeeeeeeeeeeeeeeeeeeeeeeeee"
+}
+Result: Success! Inserted ID: 5
+
+
+--- [2026-06-07T10:50:10.042Z] createLaporan Executing ---
+User: {
+  "id": 3,
+  "nik": "3333333333333333",
+  "nama_lengkap": "user aja",
+  "email": "user@gmail.com",
+  "role": "user",
+  "iat": 1780827650,
+  "exp": 1780914050
+}
+Fields: {
+  "title": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+  "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+  "tanggal_kejadian": "2009-10-10",
+  "lokasi_kejadian": "qqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+}
+Result: Success! Inserted ID: 6

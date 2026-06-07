@@ -559,3 +559,87 @@ Body received: {
   "category_id": "5",
   "existing_images": "[]"
 }
+
+
+--- [2026-06-07T10:22:20.505Z] Incoming Request ---
+Headers: {
+  "host": "192.168.1.8:3000",
+  "connection": "keep-alive",
+  "content-length": "547",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryQ7RV3tzfLkSIsSA4",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwODI3NjUwLCJleHAiOjE3ODA5MTQwNTB9.PAcHiBWJ8FhSWFiVvoMdgCEFGWCSI6Nou6TBQNkDXus",
+  "accept": "*/*",
+  "origin": "http://localhost:8081",
+  "referer": "http://localhost:8081/",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7"
+}
+Files received: []
+Body received: {
+  "title": "coba lapor aja",
+  "description": "coba lapor ajacoba lapor ajacoba lapor aja",
+  "tanggal_kejadian": "2008-09-10",
+  "lokasi_kejadian": "coba lapor ajacoba lapor ajacoba lapor aja"
+}
+
+
+--- [2026-06-07T10:40:25.479Z] Incoming Request ---
+Headers: {
+  "host": "192.168.1.8:3000",
+  "connection": "keep-alive",
+  "content-length": "613",
+  "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryaxojv5WZl1QG6uQ0",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwODI3NjUwLCJleHAiOjE3ODA5MTQwNTB9.PAcHiBWJ8FhSWFiVvoMdgCEFGWCSI6Nou6TBQNkDXus",
+  "accept": "*/*",
+  "origin": "http://localhost:8081",
+  "referer": "http://localhost:8081/",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7",
+  "cache-control": "no-cache",
+  "pragma": "no-cache"
+}
+Files received: []
+Body received: {
+  "title": "dsfniuaesfiuefhesiufhshfushfuishdfiuhdsiuhfuidshfiudshfudisfhdusifhdsuifhdsuifhdusihfuhfdfushfsuhdhfsif",
+  "description": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "tanggal_kejadian": "2009-01-10",
+  "lokasi_kejadian": "feafeeeeeeeeeeeeeeeeeeeeeeeeee"
+}
+
+
+--- [2026-06-07T10:50:09.924Z] Incoming Request ---
+Headers: {
+  "host": "192.168.1.8:3000",
+  "connection": "keep-alive",
+  "content-length": "1230477",
+  "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarytFav6oYyeYzVwlBf",
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmlrIjoiMzMzMzMzMzMzMzMzMzMzMyIsIm5hbWFfbGVuZ2thcCI6InVzZXIgYWphIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwODI3NjUwLCJleHAiOjE3ODA5MTQwNTB9.PAcHiBWJ8FhSWFiVvoMdgCEFGWCSI6Nou6TBQNkDXus",
+  "accept": "*/*",
+  "origin": "http://localhost:8081",
+  "referer": "http://localhost:8081/",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7",
+  "cache-control": "no-cache",
+  "pragma": "no-cache"
+}
+Files received: [
+  {
+    "fieldname": "files",
+    "originalname": "Gambar WhatsApp 2024-10-04 pukul 20.28.14_e49d322b.jpg",
+    "encoding": "7bit",
+    "mimetype": "image/jpeg",
+    "destination": "uploads/",
+    "filename": "1780829409963-839396485.jpg",
+    "path": "uploads\\1780829409963-839396485.jpg",
+    "size": 1229751
+  }
+]
+Body received: {
+  "title": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+  "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+  "tanggal_kejadian": "2009-10-10",
+  "lokasi_kejadian": "qqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+}
